@@ -5,16 +5,16 @@ var test, test_status, question, choice, choices, chA, chB, chC;
 
 //Questions, Choices & Ansswers Array
 var questions = [
-    ["Q?", "A", "B", "C", "D", "Answer"],
-    ["Q?", "A", "B", "C", "D", "Answer"],
-    ["Q?", "A", "B", "C", "D", "Answer"],
-    ["Q?", "A", "B", "C", "D", "Answer"],
-    ["Q?", "A", "B", "C", "D", "Answer"],
-    ["Q?", "A", "B", "C", "D", "Answer"],
-    ["Q?", "A", "B", "C", "D", "Answer"],
-    ["Q?", "A", "B", "C", "D", "Answer"],
-    ["Q?", "A", "B", "C", "D", "Answer"],
-    ["Q?", "A", "B", "C", "D", "Answer"],
+    ["How can you get the total number of arguments passed to a function?", "Using args.length property", "Using arguments.length property", "Both of the above.", "None of the above.", "B"],
+    // ["Q", "A", "B", "C", "D", "Answer"],
+    // ["Q", "A", "B", "C", "D", "Answer"],
+    // ["Q", "A", "B", "C", "D", "Answer"],
+    // ["Q", "A", "B", "C", "D", "Answer"],
+    // ["Q", "A", "B", "C", "D", "Answer"],
+    // ["Q", "A", "B", "C", "D", "Answer"],
+    // ["Q", "A", "B", "C", "D", "Answer"],
+    // ["Q", "A", "B", "C", "D", "Answer"],
+    // ["Q", "A", "B", "C", "D", "Answer"],
 ];
 
 function get(x) {
@@ -26,7 +26,7 @@ function nextQuestion(){
   test = get("test");
   if(qnum >= questions.length){
     test.innerHTML = "<h2>You got "+correct+" of "+questions.length+" questions correct</h2>";
-    get("test_status").innerHTML = "Test completed";
+    get("test_status").innerHTML = "JS Trivia Game Completed!";
     // Reset Triva Game Score
     qnum = 0;
     correct = 0;
