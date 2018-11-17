@@ -1,0 +1,17 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: lavender;
+    color: grey;
+    font-size: 30px;
+  }
+
+  div#test{
+    border:grey 3px solid;
+    padding:10px 40px 40px 40px;
+    background-color:lavender;
+    width:80%;
+    border-radius: 15px;
+    margin: auto;
+    color: grey;
+  }
