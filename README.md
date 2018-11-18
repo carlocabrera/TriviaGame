@@ -10,3 +10,6 @@ Trivia Game Rules:
 
 Demo Video:
 https://drive.google.com/file/d/1Ob4ExGGiHsCbaOC_bzMkFfV9HA3_lVnC/view
+
+
+![Alt Text](assets/demo.gif)
